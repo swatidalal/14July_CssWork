@@ -1,0 +1,48 @@
+h1{
+    background-color:steelblue;
+    color: white;
+    font-style: oblique;
+    text-align: center;
+
+}
+
+table {
+    width: 100%;
+   }
+   
+   table, th, td {
+   border: 2px solid;
+   }
+   th{
+    background-color:maroon;
+    color: white;
+   }
+   
+   table {
+    border-collapse: collapse;
+    background-color: lightgreen;
+    color: blueviolet;
+   }
+   
+   th {
+    height: 70px;
+   }
+   ul.a{
+    list-style-image:url("/download.jpg");
+   }
+   ol.b{
+    list-style-type: lower-alpha;
+  }
+ 
+  ol li {
+    background: lightskyblue;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background:lightcoral;
+    color: darkblue;
+    margin: 5px;
+  } 

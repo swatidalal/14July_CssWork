@@ -1,0 +1,55 @@
+/* h1{
+    color: blue;
+} */
+/* universal selector */
+/* *{
+    margin:0 ;
+    padding: 0;
+    color: blueviolet;
+} */
+/* 
+element selector */
+h1{
+    color: red;
+
+}
+p{
+    color: blueviolet;
+}
+/* Id selector */
+
+#error{
+    color: magenta
+}
+
+ /* sclasselector */
+ .generic{
+    color: green;
+ }
+ .blue
+ {
+    color: cyan;
+ }
+ /* Descendant select */
+
+
+ h1 em{
+    color: green;
+ }
+ ul.menu{
+    padding: 0;
+    list-style: none;
+}
+ul.menu li div.divclass{
+    color: magenta;
+}
+ul.menu li div#tsxDsc{
+    color: gold;
+}
+  ul.menu li{
+    display: inline;
+  }   
+  ul.menu li a{
+    margin: 50px;
+    text-decoration:none;
+  }
